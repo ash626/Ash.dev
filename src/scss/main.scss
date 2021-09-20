@@ -1,0 +1,19 @@
+
+
+@use './core/_reset.scss';
+@use './core/_typography.scss';
+
+@use './components/navbar.scss';
+
+@use './pages/mainpage.scss';
+
+@use './sections/openingbanner.scss';
+
+
+@use './abstracts';
+
+
+
+.content{
+  background-color: abstracts.$green;
+}

@@ -1,0 +1,21 @@
+@use '../abstracts';
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+
+.navlinks{
+  display: flex;
+  background-color: lightcoral;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.navlink{
+  margin: 0 24px;
+  text-decoration: none;
+}
