@@ -10,10 +10,8 @@
 @use './sections/openingbanner.scss';
 
 
-@use './abstracts';
-
-
+@use "./themes/dark";
 
 .content{
-  background-color: abstracts.$green;
+  background-color: dark.$green;
 }
