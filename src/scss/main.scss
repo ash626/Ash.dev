@@ -8,10 +8,3 @@
 @use './pages/mainpage.scss';
 
 @use './sections/openingbanner.scss';
-
-
-@use "./themes/dark";
-
-.content{
-  background-color: dark.$green;
-}
