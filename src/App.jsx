@@ -1,11 +1,11 @@
 import React from 'react';
-import OpeningBanner from './sections/OpeningBanner';
+import CanvasHandler from './sections/CanvasHandler';
 import './scss/main.scss';
 
 function App() {
   return (
     <div className="App">
-      <OpeningBanner />
+      <CanvasHandler />
     </div>
   );
 }

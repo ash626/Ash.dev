@@ -1,10 +1,10 @@
+@import './abstracts/abstracts-dir';
 
+@import './core/_reset.scss';
+@import './core/_typography.scss';
 
-@use './core/_reset.scss';
-@use './core/_typography.scss';
+@import './components/components-dir.scss';
 
-@use './components/navbar.scss';
+@import './pages/mainpage.scss';
 
-@use './pages/mainpage.scss';
-
-@use './sections/openingbanner.scss';
+@import './sections/openingbanner.scss';

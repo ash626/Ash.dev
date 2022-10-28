@@ -1,6 +1,4 @@
-@use '../abstracts';
-
 .content{
-  background-color: abstracts.$midgrey;
+  background-color: $midgrey;
   height: 100vh;
 }
